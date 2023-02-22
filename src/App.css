@@ -1,19 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;800&display=swap");
 
+:root {
+  --color-bg: white;
+  --color-dark: #222;
+  --color-light: #aaa;
+  --color-text: #ddd;
+  --color-accent: #ff2200;
+  --color-accent-light: #ff9180;
+  --color-accent-dark: #801100;
+  --color-link: lightblue;
+}
+
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  --color-background: #282c34;
-  --color-prime-light: #d5dade;
-  --color-prime-dark: #434b21;
-  --color-second-dark: #5f4824;
-  --color-second-light: #999c68;
-  --color-link: #61dafb;
 }
 
 body {
   margin: 0;
   font-family: "Noto Sans", sans-serif;
-  background-color: var(--color-background)
+  background-color: var(--color-bg);
 }
 
 .App {
@@ -21,8 +28,8 @@ body {
 }
 
 .App-header {
-  background-color: var(--color-second-light);
-  min-height: 5vw;
+  background-color: var(--color-light);
+  min-height: 5vmin;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -30,12 +37,12 @@ body {
 }
 
 .App-logo {
-  height: 5vw;
+  height: 4vw;
   margin: 3vw;
 }
 
 .App-name {
   margin: 0;
   font-size: 5vw;
-  color: var(--color-prime-dark);
+  color: var(--color-text);
 }
