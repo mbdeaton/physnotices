@@ -29,7 +29,7 @@ body {
 
 .App-header {
   background-color: var(--color-light);
-  min-height: 5vmin;
+  height: 3rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -37,12 +37,12 @@ body {
 }
 
 .App-logo {
-  height: 4vw;
-  margin: 3vw;
+  height: 2rem;
+  margin: 2rem;
 }
 
 .App-name {
   margin: 0;
-  font-size: 5vw;
+  font-size: 3rem;
   color: var(--color-text);
 }
