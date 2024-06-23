@@ -23,7 +23,7 @@ body {
   background-color: var(--color-bg);
 }
 
-.App {
+.app {
   text-align: center;
 }
 
@@ -36,12 +36,12 @@ body {
   justify-content: left;
 }
 
-.App-logo {
+.app-logo {
   height: 2rem;
   margin: 2rem;
 }
 
-.App-name {
+.app-name {
   margin: 0;
   font-size: 3rem;
   color: var(--color-text);

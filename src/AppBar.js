@@ -4,8 +4,8 @@ import "./App.css";
 function AppBar() {
   return (
     <header className="app-bar">
-      <img src={logo} className="App-logo" alt="logo" />
-      <h1 className="App-name">Physics Notices</h1>
+      <img src={logo} className="app-logo" alt="logo" />
+      <h1 className="app-name">Physics Notices</h1>
     </header>
   );
 }
