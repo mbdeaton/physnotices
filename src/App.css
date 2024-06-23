@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-.App-header {
+.app-bar {
   background-color: var(--color-light);
   height: 3rem;
   display: flex;
