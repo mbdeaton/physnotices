@@ -46,3 +46,17 @@ body {
   font-size: 3rem;
   color: var(--color-text);
 }
+
+.image-viewer {
+  background-color: var(--color-light); /* TODO: just for mocking, remove */
+  width: 300px;
+  min-height: 330px;
+  padding: 8px;
+  margin: 8px auto;
+}
+
+.image {
+  /* TODO: most of these props are just for mocking, remove */
+  background-color: var(--color-accent);
+  padding: 4px;
+}
