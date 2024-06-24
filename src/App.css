@@ -9,6 +9,7 @@
   --color-accent-light: #ff9180;
   --color-accent-dark: #801100;
   --color-link: lightblue;
+  --height-app-bar: 3rem;
 }
 
 * {
@@ -29,7 +30,7 @@ body {
 
 .app-bar {
   background-color: var(--color-light);
-  height: 3rem;
+  height: var(--height-app-bar);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -37,12 +38,12 @@ body {
 }
 
 .app-logo {
-  height: 2rem;
-  margin: auto 0.6rem;
+  height: calc(0.6 * var(--height-app-bar));
+  margin: auto calc(0.2 * var(--height-app-bar));
 }
 
 .app-name {
-  font-size: 3rem;
+  font-size: var(--height-app-bar);
   color: var(--color-text);
 }
 
@@ -68,4 +69,10 @@ body {
   display: flex;
   flex-direction: row;
   gap: 8px;
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --height-app-bar: 2rem;
+  }
 }
